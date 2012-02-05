@@ -3,5 +3,8 @@ This is a simple random data generator.  I needed something to quickly generate 
 
 The data is the freely available US Census data from 2000.  
 
+## To run
+    ./makefake --records 5000000000 --fields surname,city,zip > test_data.csv
+
 ## License
 MIT Licensed.

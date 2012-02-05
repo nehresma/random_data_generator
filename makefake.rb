@@ -31,7 +31,8 @@ opts = OptionParser.new do |opts|
     exit
   end
 
-end.parse!
+end
+opts.parse!
 
 unless options[:count]
   puts "Number of records is required"
